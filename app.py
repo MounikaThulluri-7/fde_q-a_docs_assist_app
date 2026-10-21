@@ -425,7 +425,7 @@ class WebServerHandler(SimpleHTTPRequestHandler):
 
 
 def main():
-    port = 8080
+    port = 8000
     server = HTTPServer(("127.0.0.1", port), WebServerHandler)
     print("=" * 65)
     print(f" Web app running at: http://127.0.0.1:{port}")
